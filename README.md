@@ -15,7 +15,7 @@ Requirements
 
 * make
 * ssh-keygen
-* puttygen
+* puttygen (except Windows version)
 
 
 Usage

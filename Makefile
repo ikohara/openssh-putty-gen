@@ -33,13 +33,11 @@ all: $(TARGET)
 
 no_ssh_keygen:
 	@echo "Install ssh-keygen like following commands:"
-	@echo "  (Debian) # apt-get install openssh-client"
-	@echo "  (MSYS2)  # pacman -S openssh"
+	@echo "# apt-get install openssh-client"
 
 no_puttygen:
 	@echo "Install puttygen like following commands:"
-	@echo "  (Debian) # apt-get install putty-tools"
-	@echo "  (MSYS2)  # pacman -S mingw-w64-x86_64-putty"
+	@echo "# apt-get install putty-tools"
 
 clean:
 	$(RM) $(TARGET)
